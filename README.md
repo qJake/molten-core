@@ -31,4 +31,4 @@ The default configuration for the solution when you clone the repo is **.NET 4.5
 
 To contribute, fork the code, make improvements or add new features that belong in an all-purpose utility library, commit, and send me a pull request.
 
-**Looking for something to contribute?** Search for `TODO:` in the source, there are numerous places where improvements can be made!
+**Looking for something to contribute?** [Search for `TODO:` in the source](https://github.com/qJake/molten-core/search?q=TODO%3A&ref=cmdform), there are numerous places where improvements can be made!

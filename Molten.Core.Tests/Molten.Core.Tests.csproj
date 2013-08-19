@@ -59,12 +59,12 @@
     <Compile Include="Mock Data\MockData.cs" />
     <Compile Include="Mock Data\NonSerializableMockData.cs" />
     <Compile Include="Molten.Core.WinApi\DwmColorManagerTests.cs" />
+    <Compile Include="Molten.Core\Collections\LimitedQueueTests.cs" />
     <Compile Include="Molten.Core\Data\ValidationHelperTests.cs" />
     <Compile Include="Molten.Core\Extensions\StringExtensionsTests.cs" />
     <Compile Include="Molten.Core\Localization\LocalizationTests.cs" />
     <Compile Include="Molten.Core\Net\TcpConnectionTests.cs" />
     <Compile Include="Molten.Core\Storage\XmlStorageManagerTests.cs" />
-    <Compile Include="Molten.Core\LimitedQueueTests.cs" />
     <Compile Include="Molten.Core\Extensions\ObjectExtensionTests.cs" />
     <Compile Include="Molten.Core\Extensions\TimeSpanExtensionTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

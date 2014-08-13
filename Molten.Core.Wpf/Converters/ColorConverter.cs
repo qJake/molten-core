@@ -25,7 +25,15 @@ namespace Molten.Core.Wpf.Converters
             {
                 return null;
             }
-            return (Color)System.Windows.Media.ColorConverter.ConvertFromString((string)value);
+            if (targetType.IsAssignableFrom(typeof (Color)))
+            {
+                return (Color)System.Windows.Media.ColorConverter.ConvertFromString((string)value);
+            }
+            if (targetType.IsAssignableFrom(typeof(Brush)))
+            {
+                return new SolidColorBrush((Color)System.Windows.Media.ColorConverter.ConvertFromString((string)value));
+            }
+            return null;
         }
 
         /// <summary>

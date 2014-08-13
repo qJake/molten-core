@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Converters\InverseBooleanConverter.cs" />
+    <Compile Include="Converters\ColorConverter.cs" />
     <Compile Include="DragDrop\DragDropManager.cs" />
     <Compile Include="DragDrop\DragDropper.cs" />
     <Compile Include="DragDrop\DragStartEventArgs.cs" />
